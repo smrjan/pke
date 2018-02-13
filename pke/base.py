@@ -6,7 +6,7 @@ from .readers import MinimalCoreNLPParser, PreProcessedTextReader, RawTextReader
 from collections import defaultdict
 from nltk.stem.snowball import SnowballStemmer as Stemmer
 from nltk import RegexpParser
-from string import letters, digits, punctuation
+from string import ascii_letters as letters, digits, punctuation
 import os
 
 from unidecode import unidecode
